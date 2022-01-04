@@ -3,19 +3,8 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <style type="text/css">
-        ol {
-            margin: 0;
-            padding: 0
-        }
-
-        table td,
-        table th {
-            padding: 0
-        }
-
-
         .lineBreak {
-            padding-bottom: 5em;
+            padding-bottom: 3.5em;
         }
 
         .attachmentText {
@@ -36,13 +25,6 @@
             orphans: 2;
             widows: 2;
             text-align: center
-        }
-
-        .linkBlue {
-            text-decoration-skip-ink: none;
-            -webkit-text-decoration-skip: none;
-            color: #1155cc;
-            text-decoration: underline
         }
 
         .imageSpan {
@@ -75,14 +57,22 @@
             text-align: justify
         }
 
-        body{
+        body {
             background-color: #ffffff;
             max-width: 600pt;
             padding: 50pt;
         }
 
-        hr{
-            page-break-after: always;
+        a {
+            text-decoration-skip-ink: none;
+            -webkit-text-decoration-skip: none;
+            color: #1155cc;
+            text-decoration: underline
+        }
+
+        hr {
+            margin-top: 3.5em;
+            page-break-before: always;
         }
 
         li {
@@ -90,6 +80,16 @@
             font-weight: 700;
             font-size: 12pt;
             font-family: "Times New Roman"
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 6pt 4pt;
         }
 
         p {
@@ -165,44 +165,44 @@
         <tr>
             <td>Göteborgs universitet</td>
             <td>GU</td>
-            <td><a href="#1.1.1">1-01GU-1start</a></td>
-            <td><a href="sheet003.htm#RANGE!A1">1-01GU-2hitta</a></td>
-            <td><a href="sheet004.htm#RANGE!A1">1-01GU-3program</a></td>
+            <td><a href="#1.1.1">GU-1start</a></td>
+            <td><a href="#2.1.1">GU-2hitta</a></td>
+            <td><a href="#3.1.1">GU-3program</a></td>
         </tr>
         <tr>
             <td>Karolinska institutet</td>
             <td>KI</td>
-            <td><a href="sheet005.htm#RANGE!A1">1-03KI-1start</a></td>
-            <td><a href="sheet006.htm#RANGE!A1">1-03KI-2hitta</a></td>
-            <td><a href="sheet007.htm#RANGE!A1">1-03KI-3program</a></td>
+            <td><a href="#1.1.2">KI-1start</a></td>
+            <td><a href="#2.1.2">KI-2hitta</a></td>
+            <td><a href="#3.1.2">KI-3program</a></td>
         </tr>
         <tr>
             <td>Linköpings universitet</td>
             <td>LIU</td>
-            <td><a href="sheet008.htm#RANGE!A1">1-05LIU-1start</a></td>
-            <td><a href="sheet009.htm#RANGE!A1">1-05LIU-2hitta</a></td>
-            <td><a href="sheet010.htm#RANGE!A1">1-05LIU-3program</a></td>
+            <td><a href="#1.1.3">LIU-1start</a></td>
+            <td><a href="#2.1.3">LIU-2hitta</a></td>
+            <td><a href="#3.1.3">LIU-3program</a></td>
         </tr>
         <tr>
             <td>Luleå tekniska universitet</td>
             <td>LTU</td>
-            <td><a href="sheet011.htm#RANGE!A1">1-07LTU-1start</a></td>
-            <td><a href="sheet012.htm#RANGE!A1">1-07LTU-2hitta</a></td>
-            <td><a href="sheet013.htm#RANGE!A1">1-07LTU-3program</a></td>
+            <td><a href="#1.1.4">LTU-1start</a></td>
+            <td><a href="#2.1.4">LTU-2hitta</a></td>
+            <td><a href="#3.1.4">LTU-3program</a></td>
         </tr>
         <tr>
             <td>Malmö universitet</td>
             <td>MAU</td>
-            <td><a href="sheet014.htm#RANGE!A1">1-09MAU-1start</a></td>
-            <td><a href="sheet015.htm#RANGE!A1">1-09MAU-2hitta</a></td>
-            <td><a href="sheet016.htm#RANGE!A1">1-09MAU-3program</a></td>
+            <td><a href="#1.1.5">MAU-1start</a></td>
+            <td><a href="#2.1.5">MAU-2hitta</a></td>
+            <td><a href="#3.1.5">MAU-3program</a></td>
         </tr>
         <tr>
             <td>Stockholms universitet</td>
             <td>SU</td>
-            <td><a href="sheet017.htm#RANGE!A1">1-11SU-1start</a></td>
-            <td><a href="sheet018.htm#RANGE!A1">1-11SU-2hitta</a></td>
-            <td><a href="sheet019.htm#RANGE!A1">1-11SU-3program</a></td>
+            <td><a href="#1.1.6">SU-1start</a></td>
+            <td><a href="#2.1.6">SU-2hitta</a></td>
+            <td><a href="#3.1.6">SU-3program</a></td>
         </tr>
         <tr>
             <td>Umeå universitet</td>
@@ -372,7 +372,6 @@
     </table>
 
 
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h2>1. Automatisk granskning av startsidan</h2>
@@ -416,7 +415,6 @@
             <img alt="" src="images/image59.png" style="width: 601.70px; height: 646.67px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 1.1.8 - ORU - Örebro universitet</span></p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>1.2 Universitet (enskilda utbildningsanordnare)</h3>
@@ -424,7 +422,6 @@
             <img alt="" src="images/image30.png" style="width: 601.70px; height: 881.33px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 1.2.1 - CTH - Chalmers tekniska högskola</span></p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>1.3 Högskolor (statliga)</h3>
@@ -467,7 +464,6 @@
             <img alt="" src="images/image36.png" style="width: 601.70px; height: 742.67px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 1.3.8 - SKH - Stockholms konstnärliga högskola</span></p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>1.4 Högskolor (enskilda utbildningsanordnare)</h3>
@@ -510,7 +506,6 @@
             <img alt="" src="images/image68.png" style="width: 601.70px; height: 654.67px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 1.4.8 - CBTI - Svenska institutet för kognitiv psykoterapi</span></p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h2>2. Automatisk granskning av hitta/lista alla program-sidan</h2>
@@ -554,7 +549,6 @@
             <img alt="" src="images/image50.png" style="width: 601.70px; height: 884.00px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 2.1.8 - ORU- Örebro universitet</span></p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>2.2 Universitet (enskilda utbildningsanordnare)</h3>
@@ -562,7 +556,6 @@
             <img alt="" src="images/image32.png" style="width: 601.70px; height: 872.00px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 2.2.1 - CTH - Chalmers tekniska högskola</span></p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>2.3 Högskolor (statliga)</h3>
@@ -588,7 +581,7 @@
     <p class="attachmentText">Får inte denna sidan att fungera:</p>
     <p class="attachmentText">
         <a href="https://www.hh.se/utbildning/hitta-din-utbildning.html?language=sv&amp;educationType=P&amp;identity=programSV,coursesSV,lifeLongLearningCoursesSV&amp;showbutton=false">
-            <span class="linkBlue">https://www.hh.se/utbildning/hitta-din-utbildning.html?language=sv&amp;educationType=P&amp;identity=programSV,coursesSV,lifeLongLearningCoursesSV&amp;showbutton=false</span>
+            https://www.hh.se/utbildning/hitta-din-utbildning.html?language=sv&amp;educationType=P&amp;identity=programSV,coursesSV,lifeLongLearningCoursesSV&amp;showbutton=false</span>
         </a>
     </p>
     <p class="attachmentText">Eftersom det är flertalet kommatecken i URLen, så fick vi kopiera källkoden och köra granskningen av sidans direktinmatade HTML-kod:</p>
@@ -616,7 +609,6 @@
             <img alt="" src="images/image9.png" style="width: 601.70px; height: 716.00px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 2.3.8 - SKH - Stockholms konstnärliga högskola</p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>2.4 Högskolor (enskilda utbildningsanordnare)</h3>
@@ -659,7 +651,6 @@
             <img alt="" src="images/image46.png" style="width: 601.70px; height: 724.00px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 2.4.8 - CBTI - Svenska institutet för kognitiv psykoterapi</p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h2>3. Automatisk granskning av programsidan</h2>
@@ -703,7 +694,6 @@
             <img alt="" src="images/image16.png" style="width: 601.70px; height: 726.67px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 3.1.8 - ORU- Örebro universitet</p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>3.2 Universitet (enskilda utbildningsanordnare)</h3>
@@ -711,7 +701,6 @@
             <img alt="" src="images/image75.png" style="width: 601.70px; height: 673.33px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 3.2.1 - CTH - Chalmers tekniska högskola</p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>3.3 Högskolor (statliga)</h3>
@@ -754,7 +743,6 @@
             <img alt="" src="images/image56.png" style="width: 601.70px; height: 722.67px" class="imageImg"
                 title=""></span></p>
     <p class="attachmentText">Bilaga E - Figur 3.3.8 - SKH - Stockholms konstnärliga högskola</p>
-    <p class="lineBreak"></p>
     <hr />
     <p class="lineBreak"></p>
     <h3>3.4 Högskolor (enskilda utbildningsanordnare)</h3>
