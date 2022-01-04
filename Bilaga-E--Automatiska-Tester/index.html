@@ -57,6 +57,10 @@
             text-align: justify
         }
 
+        .odd{
+            background-color: #D9E1F2;
+        }
+
         body {
             background-color: #ffffff;
             max-width: 600pt;
@@ -90,7 +94,17 @@
         table td,
         table th {
             padding: 6pt 4pt;
-            text-align: justify
+            text-align: justify;
+            border: #000000 solid 1px;
+        }
+
+        table th{
+            background-color: #4472C4;
+            color: #ffffff;
+        }
+
+        table {
+            border: #000000 solid 1px;
         }
 
         p {
@@ -148,22 +162,15 @@
 <body>
     <h1 id="top">Bilaga E - Automatisk granskning av Högskolor och Universiteten</h1>
 
-    <table style='border-collapse:collapse;table-layout:fixed;width:750pt'>
+    <table style='border-collapse:collapse;table-layout:fixed;width:650pt'>
         <tr>
-            <td style='width:250pt'></td>
-            <td style='width:62pt'></td>
-            <td style='width:107pt'></td>
-            <td style='width:107pt'></td>
-            <td style='width:107pt'></td>
+            <th style='width:240pt'>Universitet (statliga)</th>
+            <th style='width:60pt'>Förkortning</th>
+            <th style='width:100pt'>Startsidan</th>
+            <th style='width:100pt'>Hitta utbildning</th>
+            <th style='width:100pt'>Valt program</th>
         </tr>
-        <tr>
-            <th>Universitet (statliga)</th>
-            <th>Förkortning</th>
-            <th>Startsidan</th>
-            <th>Hitta utbildning</th>
-            <th>Valt program</th>
-        </tr>
-        <tr>
+        <tr class="odd">
             <td>Göteborgs universitet</td>
             <td>GU</td>
             <td><a href="#1.1.1">GU-1 Startsida</a></td>
@@ -177,7 +184,7 @@
             <td><a href="#2.1.2">KI-2 Utbildning</a></td>
             <td><a href="#3.1.2">KI-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Linköpings universitet</td>
             <td>LIU</td>
             <td><a href="#1.1.3">LIU-1 Startsida</a></td>
@@ -191,7 +198,7 @@
             <td><a href="#2.1.4">LTU-2 Utbildning</a></td>
             <td><a href="#3.1.4">LTU-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Malmö universitet</td>
             <td>MAU</td>
             <td><a href="#1.1.5">MAU-1 Startsida</a></td>
@@ -205,7 +212,7 @@
             <td><a href="#2.1.6">SU-2 Utbildning</a></td>
             <td><a href="#3.1.6">SU-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Umeå universitet</td>
             <td>UMU</td>
             <td><a href="#1.1.7">UMU-1 Startsida</a></td>
@@ -221,7 +228,7 @@
             <td><a href="#3.1.8">ORU-3 Detaljsida</a></td>
         </tr>
         <tr>
-            <td colspan=6 style='height:15.75pt'></td>
+            <td colspan=5 style='height:15.75pt'></td>
         </tr>
         <tr>
             <th>Universitet (enskilda utbildningsanordnare)</th>
@@ -230,7 +237,7 @@
             <th>Hitta utbildning</th>
             <th>Valt program</th>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Chalmers tekniska högskola</td>
             <td>CTH</td>
             <td><a href="#1.2.1">CTH-1 Startsida</a></td>
@@ -238,16 +245,16 @@
             <td><a href="#3.2.1">CTH-3 Detaljsida</a></td>
         </tr>
         <tr>
-            <td colspan=6 style='height:15.75pt'></td>
+            <td colspan=5 style='height:15.75pt'></td>
         </tr>
         <tr>
-            <td>Högskolor (statliga)</td>
-            <td>Förkortning</td>
-            <td>Startsidan</td>
-            <td>Hitta utbildning</td>
-            <td>Valt program</td>
+            <th>Högskolor (statliga)</th>
+            <th>Förkortning</th>
+            <th>Startsidan</th>
+            <th>Hitta utbildning</th>
+            <th>Valt program</th>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Blekinge tekniska högskola</td>
             <td>BTH</td>
             <td><a href="#1.3.1">BTH-1 Startsida</a></td>
@@ -262,7 +269,7 @@
             <td><a href="#2.3.2">GIH-2 Utbildning</a></td>
             <td><a href="#3.3.2">GIH-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Högskolan Dalarna</td>
             <td>HD</td>
             <td><a href="#1.3.3">HD-1 Startsida</a></td>
@@ -276,7 +283,7 @@
             <td><a href="#2.3.4">HH-2 Utbildning</a></td>
             <td><a href="#3.3.4">HH-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Högskolan i Skövde</td>
             <td>HS</td>
             <td><a href="#1.3.5">HS-1 Startsida</a></td>
@@ -290,7 +297,7 @@
             <td><a href="#2.3.6">KF-2 Utbildning</a></td>
             <td><a href="#3.3.6">KF-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Kungl. Musikhögskolan i Stockholm</td>
             <td>KMH</td>
             <td><a href="#1.3.7">KMH-1 Startsida</a></td>
@@ -305,16 +312,16 @@
             <td><a href="#3.3.8">SKH-3 Detaljsida</a></td>
         </tr>
         <tr>
-            <td colspan=6 style='height:15.75pt'></td>
+            <td colspan=5 style='height:15.75pt'></td>
         </tr>
         <tr>
-            <td>Högskolor (enskilda utbildningsanordnare)</td>
-            <td>Förkortning</td>
-            <td>Startsidan</td>
-            <td>Hitta utbildning</td>
-            <td>Valt program</td>
+            <th>Högskolor (enskilda utbildningsanordnare)</th>
+            <th>Förkortning</th>
+            <th>Startsidan</th>
+            <th>Hitta utbildning</th>
+            <th>Valt program</th>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Beckmans designhögskola</td>
             <td>BDH</td>
             <td><a href="#1.4.1">BDH-1 Startsida</a></td>
@@ -328,7 +335,7 @@
             <td><a href="#2.4.2">EHS-2 Utbildning</a></td>
             <td><a href="#3.4.2">EHS-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Ersta Sköndal Bräcke högskola</td>
             <td>ESH</td>
             <td><a href="#1.4.3">ESH-1 Startsida</a></td>
@@ -342,7 +349,7 @@
             <td><a href="#2.4.4">HE-2 Utbildning</a></td>
             <td><a href="#3.4.4">HE-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Newmaninstitutet</td>
             <td>NI</td>
             <td><a href="#1.4.5">NI-1 Startsida</a></td>
@@ -356,7 +363,7 @@
             <td><a href="#2.4.6">SAPU-2 Utbildning</a></td>
             <td><a href="#3.4.6">SAPU-3 Detaljsida</a></td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Stiftelsen Högskolan i Jönköping</td>
             <td>JU</td>
             <td><a href="#1.4.7">JU-1 Startsida</a></td>
